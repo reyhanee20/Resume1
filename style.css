@@ -123,6 +123,9 @@ span {
   #title {
     width: 100%;
   }
+  .img1 {
+    height: 140px;
+  }
   .img {
     height: 100px;
   }
