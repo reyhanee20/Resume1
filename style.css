@@ -1,0 +1,129 @@
+body {
+  text-align: center;
+  margin: 0;
+  /* font-size: 1.5rem; */
+}
+
+#title {
+  background-color: #ffeefd;
+}
+.first {
+  position: relative;
+}
+
+.first h1 {
+  font-size: 3rem;
+  font-family: "Playwrite AU NSW", cursive;
+  /* font-optical-sizing: auto; */
+  font-weight: bold;
+  font-style: auto;
+  color: #5c3e57;
+  text-align: center;
+}
+
+.pro {
+  color: #73526e;
+  text-align: center;
+  font-weight: bold;
+
+  margin: 20px;
+}
+
+.moon {
+  padding: 20px;
+}
+
+.saturn {
+  display: flex;
+  justify-content: end;
+  padding: 50px;
+}
+
+.star1 {
+  position: absolute;
+  left: 35%;
+  margin-bottom: 20px;
+}
+
+.star2 {
+  position: absolute;
+  left: 78%;
+  top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.about-me {
+  font-family: sans;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+
+  margin: 10% 0 10% 0;
+}
+
+.skill {
+  color: #73526e;
+}
+
+.web-development {
+  grid-area: 1/ 2 / 2 / 3;
+}
+
+.codding {
+  grid-area: 1 / 3 /2 /4;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #5c3e57;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.button:hover {
+  background-color: #a44a96;
+}
+
+.footer {
+  background-color: #cb99c3;
+}
+
+span {
+  text-decoration: underline;
+}
+
+@media (max-width: 350px) {
+  * {
+    font-size: 0.75rem;
+  }
+  .under {
+    font-size: 1.5rem;
+  }
+  .first h1 {
+    font-size: 2.5rem;
+  }
+  footer,
+  #title {
+    width: 100%;
+  }
+  .img {
+    height: 100px;
+  }
+}
